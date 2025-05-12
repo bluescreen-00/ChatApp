@@ -1,5 +1,6 @@
 # Instalacja zależności backendu (katalog główny)
 Write-Host "Instaluję zależności backendu..."
+cd backend
 npm install
 
 # Instalacja mongodb-memory-server w backendzie
@@ -8,6 +9,6 @@ npm install mongodb-memory-server --save
 
 # Instalacja zależności frontendu
 Write-Host "Instaluję zależności frontendu..."
-cd frontend
+cd ../frontend
 npm install
 cd ..
