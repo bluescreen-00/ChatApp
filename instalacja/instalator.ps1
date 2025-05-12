@@ -17,3 +17,5 @@ npm install
 cd ../..
 
 Write-Host "Instalacja zakończona."
+Write-Host "Naciśnij Enter, aby zamknąć okno..."
+Read-Host
