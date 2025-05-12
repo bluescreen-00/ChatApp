@@ -1,21 +1,13 @@
-# Przejdź do katalogu ChatApp
-Set-Location ../ChatApp
-
+# Instalacja zależności backendu (katalog główny)
 Write-Host "Instaluję zależności backendu..."
-cd backend
 npm install
 
+# Instalacja mongodb-memory-server w backendzie
 Write-Host "Instaluję mongodb-memory-server w backendzie..."
 npm install mongodb-memory-server --save
 
-cd ..
-
+# Instalacja zależności frontendu
 Write-Host "Instaluję zależności frontendu..."
 cd frontend
 npm install
-
-cd ../..
-
-Write-Host "Instalacja zakończona."
-Write-Host "Naciśnij Enter, aby zamknąć okno..."
-Read-Host
+cd ..
